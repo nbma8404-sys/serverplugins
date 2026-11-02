@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>ServerPlugins</AssemblyName>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- TShock 6.x is for Terraria 1.4.5.x -->
+    <PackageReference Include="TShock" Version="6.*" />
+  </ItemGroup>
+</Project>
